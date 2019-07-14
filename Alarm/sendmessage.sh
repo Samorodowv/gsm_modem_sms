@@ -4,8 +4,8 @@ NUMBER=$1
 MESSAGE=$2
 
 
-/home/pi/alarm/./session.sh
-/home/pi/alarm/./token.sh
+./session.sh
+./token.sh
 
 LENGTH=${#MESSAGE}
 TIME=$(date +"%Y-%m-%d %T")
